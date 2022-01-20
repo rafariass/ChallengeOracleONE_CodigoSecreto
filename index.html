@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+    <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#000000" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Challenge Oracle ONE</title>
+  </head>
+  <body>
+    <nav class="bg-white text-center border-bottom sticky-top">
+      <img src="assets/favicon/android-chrome-192x192.png" width="96" height="96" alt="favicon">
+    </nav>
+
+    <section class="container mt-4">
+      <p class="acumin-pro-bold text-center text-danger text-uppercase p-0 m-0">Herramienta de generación de encriptado</p>
+      <h1 class="acumin-pro-bold text-center display p-0 m-0">Código Secreto</h1>
+      <p class="acumin-pro-bold text-center h5 w-md-50 m-auto pt-2">Utilice el generador de contraseñas en línea para crear de forma instantánea una contraseña encriptada.</p>
+    </section>
+
+    <div class="container pt-5 acumin-pro-regular">
+      <div class="row justify-content-center align-items-center" style="gap: 1rem;">
+        <div class="col-11 col-md-5 bx-boroder p-4">
+          <h3 class="message">Mensaje Original</h3>
+          <input type="text">
+          <small class="form-text text-muted">Solo aceota letras minúsculas y sin acento.</small>
+          <hr>
+          <div class="d-xl-flex align-items-center mt-3" style="gap: 1rem;">
+            <button type="button" class="btn btn-success w-100 my-1" id="btn-encrypt">
+              <i class="fas fa-key mr-2"></i>Encriptar!
+            </button>
+            <button type="button" class="btn btn-danger w-100 my-1" id="btn-decrypt">
+              <i class="fab fa-keycdn mr-2"></i>Desencriptar!
+            </button>
+            <div class="d-flex justify-content-end align-items-center my-1" style="gap: 1rem;">
+              <i class="fas fa-paste fa-2x text-info" id="clipboard-paste" data-toggle="tooltip" data-placement="top" title="Paste"></i>
+              <i class="fas fa-trash-restore fa-2x text-info" id="clean-up" data-toggle="tooltip" data-placement="top" title="Clean Up"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-11 col-md-5 bx-boroder p-4">
+          <h3 class="message">Mensaje Encriptado</h3>
+          <div class="d-flex">
+            <textarea rows="3" disabled></textarea>
+            <div class="d-flex justify-content-center align-items-center pl-3">
+              <i class="far fa-copy fa-2x text-info" id="clipboard-copy" data-toggle="tooltip" data-placement="top" title="Copy"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="container acumin-pro-regular text-center pt-5">
+      <hr class="border border-dark">
+      <p>Copyright&#0169; 2022 a
+        <span id="anio"></span> - Todos los derechos reservados.<br>Created by
+        <a href="#" class="text-dark font-weight-bold text-decoration-none">
+          <img src="assets/favicon/favicon-32x32.png" alt="favicon">
+          <i class="fas fa-terminal"></i><span class="rafariass">RaFariasS&#174;</span>.
+        </a>
+      </p>
+    </footer>
+
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

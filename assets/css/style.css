@@ -1,0 +1,81 @@
+@import url("https://use.typekit.net/ruj1ibd.css");
+
+body {
+  background-color: #f9fafb;
+}
+
+input, textarea {
+  border-radius: 0.5em;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: block;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+input {
+  height: 3rem;
+}
+
+textarea {
+  resize: none;
+}
+
+li:active {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.acumin-pro-regular {
+  font-family: acumin-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.acumin-pro-italic {
+  font-family: acumin-pro, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.acumin-pro-bold {
+  font-family: acumin-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.acumin-pro-bold-italic {
+  font-family: acumin-pro, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.display {
+  font-size: 3.5rem;
+  line-height: 1.2;
+  letter-spacing: -5px;
+}
+
+.message {
+  line-height: 1.2;
+  letter-spacing: -1px;
+}
+
+.w-md-50 {
+  width: 100%;
+}
+
+.bx-boroder {
+  border: 1px solid #dee2e6;
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 768px) {
+  .display {
+    font-size: 4.5rem;
+  }
+
+  .w-md-50 {
+    width: 50%;
+  }
+}
+
